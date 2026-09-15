@@ -4,7 +4,6 @@
 
 **Gestão e prestação de contas de parcerias entre Prefeituras e OSCs — Lei 13.019/2014**
 
-*Um produto [Prisma Tecnologias](https://github.com/l7hmarque)*
 
 </div>
 
@@ -48,23 +47,21 @@ uma com sua visão e permissões:
 | **Documentos com hash de verificação** | Cada documento (recibo, comprovante) gerado tem código + hash, verificável posteriormente. |
 | **Trilha de auditoria imutável** | Toda ação relevante é registrada de forma que não pode ser alterada ou apagada, nem por um administrador do sistema. |
 
-O nome comercial do sistema é **Approva**; a empresa por trás é a **Prisma Tecnologias**.
+O nome comercial do sistema é **Approva**; a empresa por trás é a **Prismatech LTDA**.
 
 ## Capturas de tela
-
-> Telas do ambiente de demonstração pública do próprio sistema, com **dados fictícios**.
 
 <table>
 <tr>
 <td width="50%">
 
-**Painel financeiro (ambiente demonstrativo)**
+**Painel financeiro sem polimento de UI/UX Design (ambiente demonstrativo)**
 ![Painel financeiro](./docs/screenshots/painel-financeiro.png)
 
 </td>
 <td width="50%">
 
-**Tela de acesso**
+**Tela de acesso/login** com Auth via Google implementado
 ![Tela de login](./docs/screenshots/tela-login.png)
 
 </td>
@@ -170,6 +167,6 @@ construir produtos próprios ou concorrentes não é permitida.
 
 <div align="center">
 
-Feito por [Prisma Tecnologias](https://github.com/l7hmarque)
+Feito por [PrismaTech](https://github.com/l7hmarque)
 
 </div>
