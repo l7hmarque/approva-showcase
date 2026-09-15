@@ -72,8 +72,6 @@ O nome comercial do sistema é **Approva**; a empresa por trás é a **Prisma Te
 <tr>
 <td width="50%" colspan="2">
 
-**Cotação pública por link (sem login do fornecedor) — estado de link expirado**
-![Cotação pública](./docs/screenshots/cotacao-publica.png)
 
 </td>
 </tr>
