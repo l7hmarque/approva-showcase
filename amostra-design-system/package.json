@@ -1,0 +1,11 @@
+{
+  "name": "approva-design-system-amostra",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Amostra ilustrativa de componentes de UI do design system do Approva — sem lógica de negócio.",
+  "type": "module",
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}

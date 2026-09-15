@@ -1,0 +1,65 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+@import "./styles/tokens.css";
+@import "./styles/components.css";
+
+@custom-variant dark (&:is([data-theme="dark"] *));
+
+/*
+ * Identidade visual PRISMA (Prisma Tecnologias — Approva).
+ * Os valores canônicos vivem em src/styles/tokens.css (--ap-*).
+ * O bloco @theme inline abaixo apenas expõe esses tokens como utilitários
+ * Tailwind (bg-background, text-primary, rounded-lg, font-display, ...).
+ * Nunca escreva cores literais em componentes.
+ */
+
+@theme inline {
+  --color-background: var(--ap-background);
+  --color-foreground: var(--ap-foreground);
+  --color-surface: var(--ap-surface);
+  --color-surface-muted: var(--ap-surface-muted);
+  --color-surface-brand: var(--ap-surface-brand);
+  --color-surface-dark: var(--ap-surface-dark);
+  --color-card: var(--ap-surface);
+  --color-card-foreground: var(--ap-foreground);
+  --color-popover: var(--ap-surface);
+  --color-popover-foreground: var(--ap-foreground);
+  --color-muted: var(--ap-surface-muted);
+  --color-muted-foreground: var(--ap-foreground-muted);
+  --color-subtle: var(--ap-foreground-subtle);
+  --color-primary: var(--ap-primary);
+  --color-primary-hover: var(--ap-primary-hover);
+  --color-primary-soft: var(--ap-primary-soft);
+  --color-primary-foreground: var(--ap-on-primary);
+  --color-accent: var(--ap-accent);
+  --color-accent-soft: var(--ap-accent-soft);
+  --color-accent-foreground: var(--ap-on-accent);
+  --color-secondary: var(--ap-surface-muted);
+  --color-secondary-foreground: var(--ap-foreground);
+  --color-border: var(--ap-border);
+  --color-border-strong: var(--ap-border-strong);
+  --color-input: var(--ap-border-strong);
+  --color-ring: var(--ap-ring);
+  --color-success: var(--ap-success);
+  --color-success-soft: var(--ap-success-soft);
+  --color-warning: var(--ap-warning);
+  --color-warning-soft: var(--ap-warning-soft);
+  --color-destructive: var(--ap-destructive);
+  --color-destructive-soft: var(--ap-destructive-soft);
+  --color-destructive-foreground: var(--ap-neutral-0);
+  --color-on-dark: var(--ap-foreground-on-dark);
+
+  --font-display: var(--ap-font-display);
+  --font-sans: var(--ap-font-body);
+  --font-mono: var(--ap-font-mono);
+
+  --radius-sm: var(--ap-radius-sm);
+  --radius-md: var(--ap-radius-md);
+  --radius-lg: var(--ap-radius-lg);
+  --radius-xl: var(--ap-radius-xl);
+
+  --shadow-sm: var(--ap-shadow-sm);
+  --shadow-md: var(--ap-shadow-md);
+  --shadow-lg: var(--ap-shadow-lg);
+}
